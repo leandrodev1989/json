@@ -1,9 +1,71 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "produto": [
+    {
+      "id": 1,
+      "codigo": 123456,
+      "descricao": "Algodão",
+      "nomeProduto": "Calça Jeans",
+      "quantidadeEstoque": 150,
+      "quantidadeMinina": 10,
+      "pesoUnidade": 200,
+      "valorUnidade": 20,
+      "categoria": "Jeans"
+    },
+    {
+      "codigo": "123457",
+      "nomeProduto": "Celular",
+      "descricao": "Nokia",
+      "quantidadeEstoque": 1000,
+      "quantidadeMinina": 100,
+      "pesoUnidade": 50,
+      "valorUnidade": 1500,
+      "categoria": "eletronico",
+      "id": 2
+    },
+    {
+      "codigo": "123458",
+      "nomeProduto": "Caderno",
+      "descricao": "Capa dura",
+      "quantidadeEstoque": 250,
+      "quantidadeMinina": 40,
+      "pesoUnidade": 5,
+      "valorUnidade": 19,
+      "categoria": "papelaria",
+      "id": 3
+    },
+    {
+      "codigo": "12345679",
+      "nomeProduto": "TV",
+      "descricao": "30 Polegada",
+      "quantidadeEstoque": 200,
+      "quantidadeMinina": 50,
+      "pesoUnidade": 150,
+      "valorUnidade": 3500,
+      "categoria": "eletronico",
+      "id": 4
+    },
+    {
+      "codigo": "202030",
+      "nomeProduto": "Lapis",
+      "descricao": "Preto",
+      "quantidadeEstoque": 5000,
+      "quantidadeMinina": 150,
+      "pesoUnidade": 1,
+      "valorUnidade": 1,
+      "categoria": "papelaria",
+      "id": 5
+    },
+    {
+      "codigo": "202030",
+      "nomeProduto": "Lapis",
+      "descricao": "Preto",
+      "quantidadeEstoque": 5000,
+      "quantidadeMinina": 150,
+      "pesoUnidade": 1,
+      "valorUnidade": 1,
+      "categoria": "papelaria",
+      "id": 6
+    }
+
+  ]
 }
